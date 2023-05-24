@@ -1,0 +1,75 @@
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.Doos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+}
+
+.contact-form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-form .form-group label {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="Email"],
+.contact-form textarea {
+    width: 30%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: white;
+    color: rgba(42, 184, 250);
+    border: rgba(42, 184, 250) 1px solid;
+    border-radius: 5px;
+}
+
+
+#bericht {
+    width: 100%;
+}
+
+
+.ncm {
+    position: relative;
+    bottom: 10%;
+}
+
+#Contact-Formulier {
+    position: relative;
+    right: 12%;
+}
+
