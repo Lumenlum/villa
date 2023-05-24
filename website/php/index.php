@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/website/css/menu/header.css">
+    <link rel="stylesheet" href="/website/css/menu/footer.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
     </main>
 
     <footer>
-
+    <?php include '_footer.php' ?>
     </footer>
 </body>
 </html>
