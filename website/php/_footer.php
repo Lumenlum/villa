@@ -2,7 +2,7 @@
     <a href="" class="footer_item"><p>Mobile App</p></a>
     <a href="" class="footer_item"><p>Community</p></a>
     <a href="" class="footer_item"><p>Company</p></a>
-    <img src="/website/img/footer-logo.png" alt="">
+    <a href="" class="footer_item"><p>UwVilla</p></a> 
     <a href="" class="footer_item"><p>Help Desk</p></a>
     <a href="" class="footer_item"><p>Blog</p></a>
     <a href="" class="footer_item"><p>Resources</p></a>

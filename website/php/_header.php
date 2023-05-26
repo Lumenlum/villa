@@ -3,7 +3,7 @@
     <nav class="navWrapper">
         <ul class="navBar1">
             <img src="/website/img/logo.png" alt="">
-            <h2>MijnVilla</h2>
+            <h2>UwVilla</h2>
             <a href="/website/php/index.php" class="NavItem">Home</a>
             <a href="/website/php/contact.php" class="NavItem">Contact</a>
         </ul>
