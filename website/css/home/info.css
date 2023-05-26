@@ -6,22 +6,25 @@ body {
     overflow: hidden;
 }
 
-.slideshow-container {
-    width: 100%;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .slide img {
-    width: 100%;
-    height: 100%;
-  }
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+

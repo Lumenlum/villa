@@ -16,19 +16,7 @@
 
     <main>
         <!-- Place your main content here -->
-    <div class="slideshow">
-    <div class="slideshow-container">
-        <div class="slide">
-            <img src="/website/img/info/oriole_way_9.jpg" alt="Slide 1">
-        </div>
-        <div class="slide">
-            <img src="/website/img/info/Roca-Llisa.jpg" alt="Slide 2">
-        </div>
-         <div class="slide">
-            <img src="/website/img/info/Villa-Indigo-12.jpg" alt="Slide 3">
-         </div>
-    </div>
-    </div>
+        
     </main>
 
     <footer>
