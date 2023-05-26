@@ -2,10 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 1000px;
-    width: 2400px;
+    width: 100%;
     align-items: center;
-    padding-left: 40px;
 }
 
 .footer_item {
@@ -21,8 +19,7 @@
 }
 
 .socials {
-margin-left: 1160px;
-margin-top: 50px;
+margin-top: 3vh;
 width: 220px;
 display: flex;
 flex-direction: row;
@@ -45,6 +42,11 @@ height: 40px;
 }
 
 .copyright {
-    margin-left: 1150px;
     margin-top: 40px;
+}
+
+.main_foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
