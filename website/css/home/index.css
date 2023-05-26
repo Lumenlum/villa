@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: calc(
+    33.33% - 20px
+  ); /* Adjust the width and margin as per your requirements */
+  height: 100px; /* Adjust the height as per your requirements */
+  margin-bottom: 20px; /* Adjust the margin as per your requirements */
+  box-sizing: border-box;
+  margin-top: 3%;
+}
+
+.een{
+height: 150px;
+width: 220px;
+}
+
+.twee{
+  height: 150px;
+  width: 220px;
+}
+
+.drie{
+  height: 150px;
+  width: 220px;
+
+}
+
+.vier{
+  height: 150px;
+
+}
+
+.vijf{
+  height: 150px;
+
+}
+
+.zes{
+  height: 150px;
+
+}
+
+.back{
+background-color: #87cefad9;
+height: 220px;
+width: 700px;
+position: fixed;
+text-align: center;
+right: 30%;
+bottom: 50%;
+border-radius: 70%;
+}
+
