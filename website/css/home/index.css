@@ -61,12 +61,11 @@ width: 220px;
 }
 
 .back{
-background-color: #87cefad9;
+background-color: #87cefa;
 height: 220px;
 width: 700px;
-position: fixed;
 text-align: center;
-right: 30%;
+right: 70%;
 bottom: 50%;
 border-radius: 70%;
 }
