@@ -7,24 +7,14 @@
     <link rel="stylesheet" href="../css/home/index.css" />
     <link rel="stylesheet" href="./_footer.php">
     <link rel="stylesheet" href="./_header.php">
+    <link rel="stylesheet" href="../css/menu/footer.css">
+    <link rel="stylesheet" href="../css/menu/header.css">
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav class="navWrapper">
-          <ul class="navBar1">
-              <img src="/website/img/logo.png" alt="">
-              <h2>MijnVilla</h2>
-              <a href="/website/php/index.php" class="NavItem">Home</a>
-              <a href="/website/php/contact.php" class="NavItem">Contact</a>
-          </ul>
-          <ul class="navBar2">
-              <a href=""><p id="login">Log in</p></a>
-              <a href=""><p id="register">Register</p></a>
-          </ul>
-      </nav>
-  </header>
- 
+      <?php include '_header.php' ?>
+      </header>
     <h1>Mijn Villa</h1>
     <p>
       Welkom bij onze exclusieve collectie van luxe villa's. <br />
@@ -42,6 +32,8 @@
       <div class="flex-item"><img class="zes" src="./index/6.jpeg" alt=""></div> 
       <div class="back"></div>
     </div>
-    <footer></footer>
+    <footer>
+      <?php include_'footer.php' ?>
+    </footer>
   </body>
 </html>
