@@ -50,24 +50,6 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
-<div class="indelling"> 
-  <h2>Indelling</h2>
-  <p>lorum ipsum</p>
-</div>
-
-<div class="locatie">
-
-</div>
-
-<div class="bod">
-
-</div>
-
-<div class="bied">
-    <form action="">
-      
-    </form>
-</div>
     </main>
 
     <footer>
