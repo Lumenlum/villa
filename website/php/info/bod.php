@@ -10,7 +10,6 @@ if (isset($_POST['naam']) && isset($_POST['achternaam']) && isset($_POST['telefo
   
     // Check connection
     if ($conn->connect_errno) {
-      header("Location: index.php");
       exit();
     }
   
@@ -18,7 +17,6 @@ if (isset($_POST['naam']) && isset($_POST['achternaam']) && isset($_POST['telefo
     $stmt = $conn->prepare($sql);
     
     if (!$stmt) {
-      header("Location: index.php");
       exit();
     }
   
