@@ -36,7 +36,7 @@
       }
     }
 
-
+      
   ?>
     <header>
         <?php include '_header.php' ?>
@@ -77,7 +77,7 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-        <p><?= $data['naam'] ?></p>
+
     </main>
 
     <footer>
