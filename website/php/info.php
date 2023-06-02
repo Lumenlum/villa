@@ -18,7 +18,7 @@
       header("Location: index.php");
     }
 
-    $conn = new mysqli("localhost","my_user","my_password","my_db");
+    $conn = new mysqli("localhost","88896_DB","Lumplok0306!","88896_DU");
 
     // Check connection
     if ($conn -> connect_errno) {
@@ -31,12 +31,12 @@
     $data = array();
 
     if ($result -> num_rows > 0) {
-      while ($row == $result -> fetch_assoc()) {
+      while ($row = $result -> fetch_assoc()) {
         $data = $row;
       }
     }
 
-      
+
   ?>
     <header>
         <?php include '_header.php' ?>
@@ -77,7 +77,16 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+        <p><?= $data['naam'] ?></p>
 
+        <form action="bod.php" method="POST">
+  <input type="text" name="naam" placeholder="Naam">
+  <input type="text" name="achternaam" placeholder="Achternaam">
+  <input type="tel" name="tel" placeholder="Telefoonnummer">
+  <input type="email" name="email" placeholder="E-mail">
+  <input type="text" name="prijs" placeholder="Bod">
+  <input type="submit" value="Submit">
+</form>
     </main>
 
     <footer>

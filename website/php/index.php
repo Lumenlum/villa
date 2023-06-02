@@ -27,9 +27,9 @@
       Verken nu ons assortiment en vindt de villa van uw dromen.
     </p>
     <div class="flex-container">
-      <div class="flex-item"> <img onclick="window.location.href='info.php?id=1'" class="een" src="./index/1.jpg"></div>
-      <div class="flex-item"><img onclick="window.location.href='info.php?id=2'" src="./index/2.jpg" ></div>
-      <div class="flex-item"><img onclick="window.location.href='info.php?id=3'" src="./index/3.webp" alt=""></div>
+      <div class="flex-item"> <img onclick="window.location.href='info.php?id=1'" class="een" src="../img/1.jpg"></div>
+      <div class="flex-item"><img onclick="window.location.href='info.php?id=2'" src="../img/2.jpg" ></div>
+      <div class="flex-item"><img onclick="window.location.href='info.php?id=3'" src="../img/3.webp" alt=""></div>
       <div class="flex-item"> <img class="vier" src="./index/4.jpg" alt=""></div>
       <div class="flex-item"><img class="vijf" src="./index/5.jpeg" alt=""></div>
       <div class="flex-item"><img class="zes" src="./index/6.jpeg" alt=""></div> 
