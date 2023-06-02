@@ -10,6 +10,34 @@
     <title>Document</title>
 </head>
 <body>
+  <?php
+    if (isset($_GET['id'])){
+      $id = $_GET['id'];
+    }
+    else {
+      header("Location: index.php");
+    }
+
+    $conn = new mysqli("localhost","my_user","my_password","my_db");
+
+    // Check connection
+    if ($conn -> connect_errno) {
+      header("Location: index.php");
+    }
+
+    $sql = "SELECT * FROM INFO WHERE id=".$id;
+    $result = $conn -> query($sql);
+
+    $data = array();
+
+    if ($result -> num_rows > 0) {
+      while ($row == $result -> fetch_assoc()) {
+        $data = $row;
+      }
+    }
+
+
+  ?>
     <header>
         <?php include '_header.php' ?>
     </header>
@@ -49,7 +77,7 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-
+        <p><?= $data['naam'] ?></p>
     </main>
 
     <footer>
