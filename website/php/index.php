@@ -26,22 +26,24 @@
       een ongeëvenaarde selectie van villa's die voldoen aan al uw wensen <br />
       Verken nu ons assortiment en vindt de villa van uw dromen.
     </p>
-    <div class="flex-container">
-      <div class="flex-item"><img class="een" src="../img/1.jpg" /></div>
-      <div class="flex-item"><img class="twee" src="../img/2.jpg" /></div>
-      <div class="flex-item"><img class="drie" src="../img/3.webp" alt="" />
-      </div>
-      <div class="flex-item"><img class="vier" src="../img/4.jpg" alt="" />
-      </div>
-      <div class="flex-item">
-        <img class="vijf" src="../img/5.jpeg" alt="" />
-      </div>
-      <div class="flex-item">
-        <img class="zes" src="../img/6.jpeg" alt="" />
-      </div>
-    </div>
-    <footer>
+    <div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+
+</div>
+    </div >
+
+    <div class="container">
+  <!-- Your page content -->
+  <footer class="footer">
     <?php include '_footer.php' ?>
-    </footer>
+  </footer>
+</div>
+
+  </div>
   </body>
 </html>
