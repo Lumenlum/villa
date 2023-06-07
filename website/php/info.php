@@ -1,19 +1,18 @@
 <?php
-if (isset($_GET['id'])){
+if (isset($_GET['id'])) {
   $id = $_GET['id'];
-}
-else {
+} else {
   header("Location: index.php");
 }
 
 $conn = new mysqli("localhost", "88896_DB", "Villa0306!", "88896_DU");
 
-// Check connection
+
 if ($conn->connect_errno) {
   header("Location: index.php");
 }
 
-$sql = "SELECT * FROM INFO WHERE id=".$id;
+$sql = "SELECT * FROM INFO WHERE id=" . $id;
 $result = $conn->query($sql);
 
 $data = array();
@@ -21,6 +20,22 @@ $data = array();
 if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {
     $data = $row;
+  }
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $naam = $_POST['naam'];
+  $achternaam = $_POST['achternaam'];
+  $tel = $_POST['tel'];
+  $email = $_POST['email'];
+  $prijs = $_POST['prijs'];
+
+
+  $insertSql = "INSERT INTO BOD (naam, achternaam, prijs, tel, email) VALUES ('$naam', '$achternaam', '$prijs', '$tel', '$email')";
+  if ($conn->query($insertSql) === TRUE) {
+    echo "Form data stored successfully!";
+  } else {
+    echo "Error: " . $insertSql . "<br>" . $conn->error;
   }
 }
 ?>
@@ -82,7 +97,7 @@ if ($result->num_rows > 0) {
 <div class="main_info"><?php echo $data['info']; ?></div>
 
 
-        <form action="bod.php" method="POST">
+<form method="POST">
   <input type="text" name="naam" placeholder="Naam">
   <input type="text" name="achternaam" placeholder="Achternaam">
   <input type="tel" name="tel" placeholder="Telefoonnummer">
