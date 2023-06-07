@@ -1,3 +1,30 @@
+<?php
+if (isset($_GET['id'])){
+  $id = $_GET['id'];
+}
+else {
+  header("Location: index.php");
+}
+
+$conn = new mysqli("localhost", "88896_DB", "Villa0306!", "88896_DU");
+
+// Check connection
+if ($conn->connect_errno) {
+  header("Location: index.php");
+}
+
+$sql = "SELECT * FROM INFO WHERE id=".$id;
+$result = $conn->query($sql);
+
+$data = array();
+
+if ($result->num_rows > 0) {
+  while ($row = $result->fetch_assoc()) {
+    $data = $row;
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,34 +37,7 @@
     <title>Document</title>
 </head>
 <body>
-  <?php
-    if (isset($_GET['id'])){
-      $id = $_GET['id'];
-    }
-    else {
-      header("Location: index.php");
-    }
 
-    $conn = new mysqli("localhost","88896_DB","Lumplok0306!","88896_DU");
-
-    // Check connection
-    if ($conn -> connect_errno) {
-      header("Location: index.php");
-    }
-
-    $sql = "SELECT * FROM INFO WHERE id=".$id;
-    $result = $conn -> query($sql);
-
-    $data = array();
-
-    if ($result -> num_rows > 0) {
-      while ($row = $result -> fetch_assoc()) {
-        $data = $row;
-      }
-    }
-
-
-  ?>
     <header>
         <?php include '_header.php' ?>
     </header>
@@ -77,7 +77,10 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-        <p><?= $data['naam'] ?></p>
+
+<div class="main_naam"><?php echo $data['naam']; ?></div>
+<div class="main_info"><?php echo $data['info']; ?></div>
+
 
         <form action="bod.php" method="POST">
   <input type="text" name="naam" placeholder="Naam">

@@ -27,9 +27,9 @@
       Verken nu ons assortiment en vindt de villa van uw dromen.
     </p>
     <div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
+  <div class="grid-item"><img onclick="window.location.href='info.php?id=1'" class="een" src="../img/1"></div>
+  <div class="grid-item"><img onclick="window.location.href='info.php?id=2'" class="een" src=""></div>
+  <div class="grid-item"><img onclick="window.location.href='info.php?id=3'" class="een" src=""></div>  
   <div class="grid-item">4</div>
   <div class="grid-item">5</div>
   <div class="grid-item">6</div>  
