@@ -27,12 +27,12 @@
       Verken nu ons assortiment en vindt de villa van uw dromen.
     </p>
     <div class="grid-container">
-  <div class="grid-item"><img onclick="window.location.href='info.php?id=1'" class="een" src="../img/1"></div>
-  <div class="grid-item"><img onclick="window.location.href='info.php?id=2'" class="een" src="../img/2.jpg"></div>
-  <div class="grid-item"><img onclick="window.location.href='info.php?id=3'" class="een" src="../img/3.jpg"></div>  
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>  
+  <div class="grid-item"><img class="img" onclick="window.location.href='info1.php'" class="een" src="../img/1.jpg"></div>
+  <div class="grid-item"><img class="img" onclick="window.location.href='info2.php'" class="een" src="../img/2.jpg"></div>
+  <div class="grid-item"><img class="img" onclick="window.location.href='info3.php'" class="een" src="../img/3.webp"></div>  
+  <div class="grid-item"><img  class="img" class="een" src="../img/4.jpg"></div>  
+  <div class="grid-item"><img  class="img" class="een" src="../img/5.jpeg"></div>  
+  <div class="grid-item"><img  class="img" class="een" src="../img/6.jpeg"></div>  
 
 </div>
     </div >
