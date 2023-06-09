@@ -95,6 +95,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <div class="main_naam"><?php echo $data['naam']; ?></div>
 <div class="main_info"><?php echo $data['info']; ?></div>
+<div class="bod">
+  <?php
+  $bodSql = "SELECT naam, achternaam, prijs FROM BOD";
+  $bodResult = $conn->query($bodSql);
+
+  if ($bodResult->num_rows > 0) {
+    while ($bodRow = $bodResult->fetch_assoc()) {
+      echo "<p> " . $bodRow['naam'] . "</p>";
+      echo "<p> " . $bodRow['achternaam'] . "</p>";
+      echo "<p> " . $bodRow['prijs'] . "</p>";
+    }
+  } else {
+    echo "No records found.";
+  }
+  ?>
+</div>
 
 
 <form method="POST">
