@@ -5,8 +5,9 @@
     align-items: center;
     justify-content: space-between;
     max-width: 20%;
-    margin-left: 75px;
+    margin-left: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 .navBar2 {
     display: flex;
@@ -14,10 +15,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: -73px;
-    max-width: 325px;
+    margin-top: -60px;
+    max-width: 320px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
 }
 .NavItem {
     color: #87CEFA ;

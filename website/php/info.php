@@ -49,6 +49,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../css/menu/header.css">
     <link rel="stylesheet" href="../css/menu/footer.css">
     <link rel="stylesheet" href="../css/home/info.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -65,24 +67,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="mySlides fade">
     <div class="numbertext">1 / 4</div>
     <img src="../img/huis<?= $_GET['id']?>/image1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 4</div>
     <img src="../img/huis<?= $_GET['id']?>/image2.jpg"" style="width:100%">
-    <div class="text">Caption Two</div>
+
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 4</div>
     <img src="../img/huis<?= $_GET['id']?>/image3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+
   </div>
   <div class="mySlides fade">
     <div class="numbertext">4 / 4</div>
     <img src="../img/huis<?= $_GET['id']?>/image4.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+
   </div>
 
   
@@ -118,8 +120,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ?>
 </div>
 
+<h1>Villa Sereno Azul</h1>
+<p>Introducing Villa Sereno Azul, a modern sanctuary nestled in the hills. With stunning views, sleek design, and luxurious amenities, this exquisite retreat offers a perfect blend of comfort and sophistication. Experience the ultimate getaway and indulge in the serenity of this captivating villa.
+</p>
 
-<form method="POST">
+<h1>Villa Solara Vista</h1>
+<p>Introducing Villa Solara Vista, a contemporary masterpiece situated on the pristine shores of a breathtaking beach. Immerse yourself in the epitome of coastal luxury as this modern villa embraces the panoramic ocean views and offers a seamless fusion of indoor-outdoor living spaces. Relax and rejuvenate in this coastal haven where modern elegance meets 
+</p>
+
+<h1>Villa Serene Breeze</h1>
+<p>Villa Serene Breeze a modern retreat nestled amidst the enchanting woods. Immerse yourself in the serene beauty of nature as you indulge in the contemporary elegance of this secluded villa. Discover the perfect harmony between modern design and rustic charm, where floor-to-ceiling windows showcase the lush surroundings and a private pool invites you to relax and unwind. </p>
+
+
+
+<div class="bod">
+  <h3>Bieden</h3>
+  <form method="POST">
   <input type="text" name="naam" placeholder="Naam">
   <input type="text" name="achternaam" placeholder="Achternaam">
   <input type="tel" name="tel" placeholder="Telefoonnummer">
@@ -127,6 +143,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <input type="text" name="prijs" placeholder="Bod">
   <input type="submit" value="Submit">
 </form>
+</div>
+
     </main>
 
     <footer>

@@ -18,7 +18,7 @@
 
     <div class="back"></div>
 
-    <h1>Mijn Villa</h1>
+    <h1>Uw Villa</h1>
     <p>
       Welkom bij onze exclusieve collectie van luxe villa's. <br />
       Bij ons vindt u de meest stijlvolle en comfortabele woningen <br />
@@ -29,7 +29,7 @@
     <div class="grid-container">
   <div class="grid-item"><img class="img" onclick="window.location.href='info.php?id=1'"  class="een" src="../img/1.jpg"></div>
   <div class="grid-item"><img class="img" onclick="window.location.href='info.php?id=2'"  class="een" src="../img/2.jpg"></div>
-  <div class="grid-item"><img class="img" onclick="window.location.href='info.php?id=3'"  class="een" src="../img/3.webp"></div>  
+  <div class="grid-item"><img class="img" onclick="window.location.href='info.php?id=3'"  class="een" src="../img/3.jpg"></div>  
   <div class="grid-item"><img  class="img" class="een" src="../img/4.jpg"></div>  
   <div class="grid-item"><img  class="img" class="een" src="../img/5.jpeg"></div>  
   <div class="grid-item"><img  class="img" class="een" src="../img/6.jpeg"></div>  
