@@ -63,25 +63,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   <div class="mySlides fade">
-    <div class="numbertext">1 / 4</div>
+    <div class="numbertext">1 / 5</div>
     <img src="../img/huis<?= $_GET['id']?>/image1.jpg" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
+    <div class="numbertext">2 / 5</div>
     <img src="../img/huis<?= $_GET['id']?>/image2.jpg"" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
+    <div class="numbertext">3 / 5</div>
     <img src="../img/huis<?= $_GET['id']?>/image3.jpg" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
   <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
+    <div class="numbertext">4 / 5</div>
     <img src="../img/huis<?= $_GET['id']?>/image4.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="../img/huis<?= $_GET['id']?>/image5.jpg" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
@@ -97,6 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
 </div>
 
 <div class="main_naam"><?php echo $data['naam']; ?></div>
