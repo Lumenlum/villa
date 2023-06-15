@@ -44,8 +44,8 @@ $conn->close();
 
     <main>
     <div class="Doos">
-        <h2 class="ncm">Neem contact met ons op</h2>
-       
+     
+          <h2 class="ncm">Neem contact met ons op</h2>
         <h3 id="Contact-Formulier">Contact Formulier</h3>
         <form class="contact-form" method="post">
             <div class="form-group">
