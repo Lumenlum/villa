@@ -2,7 +2,7 @@
 
 
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 1400px;
   position: relative;
   margin: auto;
   
@@ -132,8 +132,7 @@ h3{
   
 
 .google-map iframe {
- height: 50%;
- width: 35%;
+
  margin-top: 5%;
  margin-left: 2%;
  box-shadow: 5px 5px 5px rgba(139, 139, 139, 0.518);
