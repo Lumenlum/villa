@@ -89,7 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
     <img src="../img/huis<?= $_GET['id']?>/image5.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
   </div>
 
   
@@ -116,9 +115,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if ($bodResult->num_rows > 0) {
     while ($bodRow = $bodResult->fetch_assoc()) {
-      echo "<p> " . $bodRow['naam'] . "</p>";
-      echo "<p> " . $bodRow['achternaam'] . "</p>";
-      echo "<p> " . $bodRow['prijs'] . "</p>";
+      echo "<p class ='naam_bod'> " . $bodRow['naam'] . "</p>";
+      echo "<p class ='naam_achternaam'> " . $bodRow['achternaam'] . "</p>";
+      echo "<p class ='naam_prijs'> " . $bodRow['prijs'] . "</p>";
     }
   } else {
     echo "No records found.";
