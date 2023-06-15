@@ -112,34 +112,25 @@ border-radius: 10%;
 margin-right: 2%;
 box-shadow: 5px 5px 5px rgba(56, 51, 51, 0.518);
 font-weight: bold;
-
 }
 
 
-
 .google-map {
-
-    padding-bottom: 50%;
-
-    position: relative;
-
-  }
+padding-bottom: 50%;
+position: relative;
+ }
 
   
 
-  .google-map iframe {
+.google-map iframe {
+ height: 50%;
+ width: 35%;
+ left: 0;
+ top: 0;
+ position: absolute;
+ }
 
-    height: 50%;
 
-    width: 35%;
-
-    left: 0;
-
-    top: 0;
-
-    position: absolute;
-
-  }
 
 
 html,
