@@ -45,7 +45,7 @@ $conn->close();
     <main>
     <div class="Doos">
         <h2 class="ncm">Neem contact met ons op</h2>
-        <p class="ncm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatum aut quo reprehenderit exercitationem.</p>
+       
         <h3 id="Contact-Formulier">Contact Formulier</h3>
         <form class="contact-form" method="post">
             <div class="form-group">
