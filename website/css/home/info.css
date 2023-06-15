@@ -2,7 +2,7 @@
 
 
 .slideshow-container {
-  max-width: 1400px;
+  max-width: 1500px;
   position: relative;
   margin: auto;
   
@@ -105,29 +105,38 @@ img{
 .bod{
 float: right;
 background-color: #cbcbcb;
-width: 17%;
-height: 25%;
+width: 23%;
+height: 33%;
 text-align: center;
 border-radius: 10%;
 margin-right: 2%;
 box-shadow: 5px 5px 5px rgba(56, 51, 51, 0.518);
 font-weight: bold;
+margin-top: 10%;
 }
 
+input{
+border: 2px #717171;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(139, 139, 139, 0.518);
+  padding: 3px 8px;
+  margin: 5px;
+  font-size: 90%;
+  
+}
 
-.google-map {
-padding-bottom: 50%;
-position: relative;
- }
+h3{
+  font-size: x-large;
 
+}
   
 
 .google-map iframe {
  height: 50%;
  width: 35%;
- left: 0;
- top: 0;
- position: absolute;
+ margin-top: 5%;
+ margin-left: 2%;
+ box-shadow: 5px 5px 5px rgba(139, 139, 139, 0.518);
  }
 
 
