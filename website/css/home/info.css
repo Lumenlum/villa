@@ -115,6 +115,32 @@ font-weight: bold;
 }
 
 
+
+.google-map {
+
+    padding-bottom: 50%;
+
+    position: relative;
+
+  }
+
+  
+
+  .google-map iframe {
+
+    height: 50%;
+
+    width: 35%;
+
+    left: 0;
+
+    top: 0;
+
+    position: absolute;
+
+  }
+
+
 html,
 body {
   height: 100%;
